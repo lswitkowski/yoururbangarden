@@ -2,11 +2,12 @@ body{
     background-image: url("/images/cucumber.png");
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:100%;
 }
 
 
 h1{
-    font-size:68px;
+    font-size:60px;
     margin: 50px 50px 50px 80px;
     text-shadow: 1px 1px rgba(97,12,200,0.51)
 }
@@ -15,7 +16,7 @@ p{
     font-size: 16px;
     text-align: left;
     margin: 0px 0px 0px 40px;
-    padding:10px;
+    padding:0px;
 
 }
 
@@ -23,8 +24,10 @@ p{
 
 ul{
 text-align: left;
-margin: 0px 0px 0px 70px;
-font-size: 16px;}
+margin: 0px 0px 0px 80px;
+padding: 20px;
+font-size:16;
+}
 
 
 .rooftop
@@ -48,7 +51,9 @@ margin-inline: 10px;}
     background-color: rgba(223, 195, 236);
     margin-right:70px; 
     border: 2px solid green;
-    text-align: left;     
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 0px;    
 }
 
 
@@ -58,10 +63,23 @@ margin-inline: 10px;}
     margin-left:70px; 
     text-align: left;
     padding-left: 10px;
-border: 2px solid green;}
+border: 2px solid green;
+min-width: 500px; }
 
 .card-paragraph{
     margin-left:140px;
+    margin-top:30px;
 }
 .card-title
-{margin-left:30px;}
+{margin-left:20%;}
+
+
+@media(max-width: 700px) {
+    h1{font-size:52px;
+  };
+  .textbox-l{margin:0px auto; }
+  .textbox-r{margin:0px auto;}
+  .card-title{font-size: 12px;}
+  .card-paragraph{font-size: 12px;}
+.card-text{font-size: 12px;}
+  }
