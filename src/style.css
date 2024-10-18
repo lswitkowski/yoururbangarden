@@ -70,13 +70,13 @@ box-shadow: -4px 4px 2px -1px rgba(0,128,0,0.5);}
 
 .card-paragraph{
     margin-left:7%;
-    margin-top:20%;
+    margin-top:14%;
     font-size: 16px;
     font-weight: 600;
     line-height: 1.5;
 }
 .card-title
-{margin-left:13%;
+{margin-left:16%;
 margin-bottom: 0%;
 padding: 8% 0% 0% 0%;
     font-size: 16px;
@@ -85,19 +85,19 @@ padding: 8% 0% 0% 0%;
 
 
 
-@media(max-width: 750px) {
+@media(max-width: 756px) {
     h1{font-size:8vw;
   };
   .textbox-l{margin:0px auto;}
   .textbox-r{margin:0px auto;}
 
-  .card-title{font-size: 15px; margin-left:12%;}
-  .card-paragraph{font-size: 15px;
-margin:0% auto;}
-.card-text{font-size: 14px;}
- .driveway{width:100%; height:auto; display:flex; margin-right: auto; margin-left:auto;}  
-li{font-size: 14px;
+  .card-title{font-size: 14px; margin-left:14%;}
+  .card-paragraph{font-size: 14px;
+margin:0% 0% 10% 0%;}
+.card-text{text-align:left; font-size:14px;}
+ .driveway{width:100%; display:flex; height:auto; margin-right: auto; margin-left:auto;}  
+li{font-size: 13px;
 }
-ul{margin-left: 10%;}
+ul{margin-left: 13%;}
 
 }
