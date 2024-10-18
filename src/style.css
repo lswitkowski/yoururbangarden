@@ -13,7 +13,7 @@ h1{
 }
 
 p{
-    font-size: 16px;
+    font-size: 15px;
     text-align: left;
     margin: 0px 0px 0px 40px;
     padding:0px;
@@ -31,12 +31,12 @@ font-size:16;
 
 
 .rooftop
-{max-width:375px;
+{max-width:500px;
 }
 .driveway
 {max-height:275px;}
 .urban
-{max-width:375px;}
+{max-width:500px;}
 
 .nav-item{
 font-size: 14px;
@@ -49,7 +49,7 @@ margin-inline: 10px;}
 
 .textbox-r{
     background-color: rgba(223, 195, 236);
-    margin-right:70px; 
+    margin-right:5%; 
     border: 2px solid green;
     text-align: left;
     padding-left: 10px;
@@ -59,27 +59,38 @@ margin-inline: 10px;}
 
 .textbox-l{
     background-color: rgba(223, 195, 236);
-    margin-top: 10px;
-    margin-left:70px; 
+    margin-top: 2%;
     text-align: left;
     padding-left: 10px;
-border: 2px solid green;
-min-width: 500px; }
+    padding-right: 10px;
+border: 2px solid green;}
 
 .card-paragraph{
-    margin-left:140px;
-    margin-top:30px;
+    margin-left:5%;
+    margin-top:5%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
 }
 .card-title
-{margin-left:20%;}
+{margin-left:17%;
+margin-bottom: 0%;
+padding: 4% 0% 2% 0%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: .75}
 
 
 @media(max-width: 700px) {
-    h1{font-size:52px;
+    h1{font-size:10vw;
   };
   .textbox-l{margin:0px auto; }
   .textbox-r{margin:0px auto;}
-  .card-title{font-size: 12px;}
-  .card-paragraph{font-size: 12px;}
-.card-text{font-size: 12px;}
+  .card-title{font-size: 15px;margin-left: 40%}
+  .card-paragraph{font-size: 15px;}
+.card-text{font-size: 14px;
+}
+li{font-size: 14px;
+    margin-left:18%;
+}
   }
