@@ -5,12 +5,13 @@ body{
     width:100%;
 }
 
-
 h1{
     font-size:60px;
     margin: 50px 50px 50px 80px;
     text-shadow: 1px 1px rgba(97,12,200,0.51)
 }
+h4{opacity:0.7;
+font-weight: 700;}
 
 p{
     font-size: 15px;
@@ -19,8 +20,6 @@ p{
     padding:0px;
 
 }
-
-
 
 ul{
 text-align: left;
@@ -66,13 +65,13 @@ font-size: 14px;
 padding: 0px auto;}
 
 .navbar-brand{
-    margin-left: 2%;
-    padding: 0px auto;
+margin-left: 2%;
+padding: 0px auto;
 }
 
 
 .textbox-r{
-    background-color: rgba(223, 195, 236);
+    background-color: rgba(223, 195, 236, 0.7);
     margin-right:5%; 
     border: 2px double green;
     text-align: left;
@@ -84,7 +83,7 @@ padding: 0px auto;}
 
 
 .textbox-l{
-    background-color: rgba(223, 195, 236);
+    background-color: rgba(223, 195, 236, 0.7);
     margin-top: 2%;
     text-align: left;
     padding-left: 10px;
@@ -113,18 +112,17 @@ padding-right: 8%;}
     font-weight: 500;
     padding-top: 0px;
     text-shadow: 1px 1px rgba(97,12,200,0.51);
-margin: 10% auto;}
+    margin: 10% auto;}
 
 @media(max-width: 756px) {
     h1{font-size:8vw;
   };
   .textbox-l{margin:0px auto;}
   .textbox-r{margin:0px auto;}
-  
-
-  .card-title{font-size: 14px; margin: 0px auto;}
+  .card-title{font-size: 14px; 
+    margin: 0px auto;}
   .card-paragraph{font-size: 15px;
-margin:0% 0% 10% 0%;}
+    margin:0% 0% 10% 0%;}
 .card-text{text-align:left; font-size:14px;}
 .emphasis{font-size: 17px;
 text-align: center;
@@ -146,10 +144,20 @@ margin-top: 3%;
 .textbox{
     background-color: rgba(255, 228, 196, 0.7);
     border-radius: 1%;
-    border:1px double green;
+    border:1px double green;}
    
-    
-}
+.textbox-get-started{
+    background-color: rgba(195, 244, 240, 0.7);
+    border-radius: 3%;
+    margin: 5px auto;
+    line-height: 1.25;
+    box-shadow: 4px 4px 5px 0px rgba(96,209,247,1);
+}   
+.textbox-get-started li{
+   padding: 3%;
+   
+}   
+
 .about-paragraph{
     padding: 6% 5% 2% 0%;
     margin: 0% 5% 0% 0%;
