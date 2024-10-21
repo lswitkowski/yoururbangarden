@@ -24,29 +24,49 @@ p{
 
 ul{
 text-align: left;
-margin: 0px 0px 0px 80px;
-padding: 15px;
+margin: 3% 3% 3% 5%;
+padding: 1%;
 font-size:16;
 }
 
 a:hover{text-shadow: 1px 1px rgba(97,12,200,0.51);}
 
+button{
+    padding:15px 35px;
+    border-radius: 5%;
+    background-color:salmon;
+    color: lightseagreen;
+    text-align: center;
+    margin-top:8%;
+    margin-bottom:8%;
+}
 
 .rooftop
 {max-width:500px;
 }
 .driveway
-{max-height:275px; max-width: 250px;}
+{max-width: 240px;}
 .urban
 {max-width:500px;}
 
+.lisa{
+  max-height: max-content;
+  border-radius: 1%;
+  opacity: 0.9;
+}
+.tigger{max-height: max-content;
+  border-radius: 1%;
+  opacity: 0.9;}
+
 .nav-item{
 font-size: 14px;
-margin-inline: 8px;}
+padding: 0px auto;}
 
 .navbar-brand{
-    margin-left: 50px;
+    margin-left: 2%;
+    padding: 0px auto;
 }
+
 
 .textbox-r{
     background-color: rgba(223, 195, 236);
@@ -55,7 +75,8 @@ margin-inline: 8px;}
     text-align: left;
     padding-left: 10px;
     padding-bottom: 0px;
-    box-shadow: -4px 4px 2px -1px rgba(0,128,0,0.5);    
+    box-shadow: -4px 4px 2px -1px rgba(0,128,0,0.5);
+
 }
 
 
@@ -76,28 +97,65 @@ box-shadow: -4px 4px 2px -1px rgba(0,128,0,0.5);}
     line-height: 1.5;
 }
 .card-title
-{margin-left:16%;
+{margin-left:2%;
 margin-bottom: 0%;
-padding: 8% 0% 0% 0%;
+padding: 0% 0% 0% 0%;
     font-size: 16px;
     font-weight: 600;
 }
 
+.card-text{padding-left: 0%;
+padding-right: 8%;}
 
+.emphasis{font-size:25px;
+    font-weight: 500;
+    padding-top: 0px;
+    margin: 8% 15% 3% 8%;
+    text-shadow: 1px 1px rgba(97,12,200,0.51)}
 
 @media(max-width: 756px) {
     h1{font-size:8vw;
   };
   .textbox-l{margin:0px auto;}
   .textbox-r{margin:0px auto;}
+  
 
-  .card-title{font-size: 14px; margin-left:14%;}
-  .card-paragraph{font-size: 14px;
+  .card-title{font-size: 14px; margin: 0px auto;}
+  .card-paragraph{font-size: 15px;
 margin:0% 0% 10% 0%;}
 .card-text{text-align:left; font-size:14px;}
- .driveway{width:100%; display:flex; height:auto; margin-right: auto; margin-left:auto;}  
+
+  
 li{font-size: 13px;
 }
-ul{margin-left: 13%;}
+.lisa{max-width: 70%;
+display:flex;
+margin-top: 3%}
+.tigger{max-width: 70%;
+display:flex;
+margin-top: 3%;
+}
+
 
 }
+
+.textbox{
+    background-color: rgba(255, 228, 196, 0.7);
+    border-radius: 1%;
+    border:1px double green;
+   
+    
+}
+.about-paragraph{
+    padding: 6% 5% 2% 0%;
+    margin: 0% 5% 0% 0%;
+    text-align: left;
+    font-size: 16px;
+
+    
+}
+
+.about-list{
+margin: 5% auto;
+line-height: 1.5;}
+
