@@ -26,7 +26,7 @@ ul{
 text-align: left;
 margin: 3% 3% 3% 5%;
 padding: 1%;
-font-size:16;
+font-size:16px;
 }
 
 a:hover{text-shadow: 1px 1px rgba(97,12,200,0.51);}
@@ -100,7 +100,7 @@ box-shadow: -4px 4px 2px -1px rgba(0,128,0,0.5);}
 {margin-left:2%;
 margin-bottom: 0%;
 padding: 0% 0% 0% 0%;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -110,7 +110,7 @@ padding-right: 8%;}
 .emphasis{font-size:25px;
     font-weight: 500;
     padding-top: 0px;
-    margin: 8% 15% 3% 8%;
+    margin: 8% 15% 3% 5%;
     text-shadow: 1px 1px rgba(97,12,200,0.51)}
 
 @media(max-width: 756px) {
@@ -124,7 +124,9 @@ padding-right: 8%;}
   .card-paragraph{font-size: 15px;
 margin:0% 0% 10% 0%;}
 .card-text{text-align:left; font-size:14px;}
-
+.emphasis{font-size: 17px;
+text-align: center;
+margin:4% auto;}
   
 li{font-size: 13px;
 }
