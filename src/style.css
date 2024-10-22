@@ -10,6 +10,7 @@ h1{
     margin: 50px 50px 50px 80px;
     text-shadow: 1px 1px rgba(97,12,200,0.51)
 }
+
 h4{opacity:0.7;
 font-weight: 700;}
 
@@ -23,8 +24,6 @@ p{
 
 ul{
 text-align: left;
-margin: 3% 3% 3% 5%;
-padding: 1%;
 font-size:16px;
 }
 
@@ -33,14 +32,22 @@ a:hover{text-shadow: 1px 1px rgba(97,12,200,0.51);
 display:block;}
 
 button{
-    padding:15px 35px;
-    border-radius: 5%;
+    padding:32px 20px;
+    border-radius: 45px;
     background-color:#ffc889;
     color: #095404;
     text-align: center;
-    margin-top:8%;
-    margin-bottom:8%;
-    border: #095404 solid 2px;
+    border: #095404 solid 1px;
+    margin-right: 20%;
+}
+.nav-item{
+font-size: 14px;
+padding: 0px auto;
+margin: 0px auto;}
+
+.navbar-brand{
+margin-left: 2%;
+padding: 0px auto;
 }
 
 .rooftop
@@ -60,14 +67,7 @@ button{
   border-radius: 1%;
   opacity: 0.9;}
 
-.nav-item{
-font-size: 14px;
-padding: 0px auto;}
 
-.navbar-brand{
-margin-left: 2%;
-padding: 0px auto;
-}
 
 
 .textbox-r{
@@ -104,8 +104,7 @@ box-shadow: -4px 4px 2px -1px rgba(0,128,0,0.5);}
     font-weight: 600;
 }
 
-.card-text{padding-left: 0%;
-padding-right: 8%;}
+
 
 .emphasis{font-size:25px;
     text-align: center;
@@ -124,11 +123,11 @@ padding-right: 8%;}
   .card-paragraph{font-size: 15px;
     margin:0% 0% 10% 0%;}
 .card-text{text-align:left; font-size:14px;}
-.emphasis{font-size: 17px;
+.emphasis{font-size: 19px;
 text-align: center;
 margin:4% auto;}
   
-li{font-size: 14px;
+li{font-size: 15px;
 }
 .lisa{max-width: 70%;
 display:flex;
@@ -159,11 +158,14 @@ margin-top: 3%;
 }   
 
 .about-paragraph{
-    padding: 6% 5% 2% 0%;
-    margin: 0% 5% 0% 0%;
+    padding: 2% auto;
+    margin: 2% auto;
     text-align: left;
     font-size: 16px;  }
+
 .about-list{
 margin: 5% auto;
 line-height: 1.5;}
 
+.text-color-dk{color:#38a13d;}
+.text-color-dk:hover{transform: scale(1.5);}
