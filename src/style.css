@@ -40,10 +40,11 @@ button{
     border: #095404 solid 1px;
     margin-right: 20%;
 }
+.navbar{background-color: rgba(203, 224, 212, 0.5);}
 .nav-item{
 font-size: 14px;
 padding: 0px auto;
-margin: 0px auto;}
+margin-inline: 20px auto;}
 
 .navbar-brand{
 margin-left: 2%;
@@ -146,7 +147,7 @@ margin-top: 3%;
     border:1px double green;}
    
 .textbox-get-started{
-    background-color: rgba(195, 244, 240, 0.7);
+    background-color: rgba(195, 264, 240, 0.7);
     border-radius: 3%;
     margin: 5px auto;
     line-height: 1.25;
@@ -167,5 +168,5 @@ margin-top: 3%;
 margin: 5% auto;
 line-height: 1.5;}
 
-.text-color-dk{color:#38a13d;}
+.text-color-dk{color:#256c29;}
 .text-color-dk:hover{transform: scale(1.5);}
