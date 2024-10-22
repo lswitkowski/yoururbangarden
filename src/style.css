@@ -172,3 +172,5 @@ line-height: 1.5;}
 .text-color-dk:hover{transform: scale(1.1);}
 
 .active{font-weight: bold;}
+.foot{font-size: 12px;
+text-align: center;}
