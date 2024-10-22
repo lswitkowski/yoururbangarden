@@ -28,8 +28,9 @@ font-size:16px;
 }
 
 a{text-decoration: none;}
-a:hover{text-shadow: 1px 1px rgba(97,12,200,0.51);
+a:hover:not(.plainlink){text-shadow: 1px 1px rgba(97,12,200,0.51);
 display:block;}
+
 
 button{
     padding:32px 20px;
